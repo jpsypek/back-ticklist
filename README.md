@@ -1,24 +1,32 @@
-# README
+# The Ticklist
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Ticklist is a single page application that allows users to keep track of the climbs that they have sent, and keep a list of climbs that they would like to do. This application was built with vanilla JavaScript utilizing a RESTful API built with Ruby on Rails and Postgres database.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+1. git clone the backend repository (https://github.com/jpsypek/back-ticklist)
+2. run rails db:create to create the Postgres db
+3. run rails db:seed to seed the db
+4. run rails s to run the backend server
+5. git clone the frontend repository (https://github.com/jpsypek/front-ticklist)
+6. run lite-server to frontend server
 
-* System dependencies
 
-* Configuration
+## Wireframe
 
-* Database creation
+![screenshot](/Ticklist-Example.png)
 
-* Database initialization
+## Video
 
-* How to run the test suite
+[Video Demo](https://youtu.be/soE7f4E0lUM)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+* **Jack Sypek**
 
-* ...
+
+## Acknowledgments
+
+* Hat tip
+
+I'd like to thank all of the Flatiron instructors for helping troubleshoot this project at various points, and the Denver[0] cohort for keeping project week fun.
